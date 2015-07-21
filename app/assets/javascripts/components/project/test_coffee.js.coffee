@@ -10,7 +10,7 @@ DeepCoffee = React.createClass
 
   render: ->
     return (
-      React.createElement 'input', {type:"text", placeholder:"hello"}
+      '<input type="text" placeholder="hello />'
     )
 
 #-----------  React Componet Class  -----------#
