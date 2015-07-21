@@ -23,6 +23,6 @@ module BrowserifyTest
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
 
-    config.browserify_rails.commandline_options = "-t coffeeify -t [ reactify --es6 target --es5 ]"
+    config.browserify_rails.commandline_options = "-t coffeeify --extension=\".js.coffee\""
   end
 end

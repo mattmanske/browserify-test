@@ -10,7 +10,7 @@ ShallowCoffee = React.createClass
 
   render: ->
     return (
-      `<input type="text" placeholder="hello" />`
+      React.createElement 'input', {type:"text", placeholder:"hello"}
     )
 
 #-----------  React Componet Class  -----------#

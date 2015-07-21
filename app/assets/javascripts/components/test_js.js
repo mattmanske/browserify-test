@@ -9,9 +9,7 @@ var ShallowJS = React.createClass({
   displayName: 'ShallowJS',
 
   render: function(){
-    return (
-      <input type="text" placeholder="hello" />
-    );
+    return React.createElement('input', {type: 'text', placeholder: 'hello'})
   }
 });
 
